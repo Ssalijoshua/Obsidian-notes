@@ -1,0 +1,9 @@
+- This is an **Indirect proof.** Meaning it doesn't start with the premises and end with the conclusion.  
+- One of the problems with direct proofs is that they often reach dead ends.
+- Proofs by contraposition make use of the fact that the conditional statement p → q is equivalent to its contrapositive, ¬q → ¬p. This means that the conditional statement p → q can be proved by showing that its contrapositive, ¬q → ¬p, is true.
+#### Examples
+**QN:** Prove that if n is an integer and 3n + 2 is odd, then n is odd.
+
+==Solution:== 
+- We ﬁrst attempt a direct proof. To construct a direct proof, we ﬁrst assume that 3n + 2 is an odd integer. From the deﬁnition of an odd integer, we know that 3n + 2 = 2k + 1 for some integer k. Can we use this fact to show that n is odd? We see that 3n + 1 = 2k, but there does not seem to be any direct way to conclude that n is odd. Because our attempt at a direct proof failed, we next try a proof by contraposition.
+- The ﬁrst step in a proof by contraposition is to assume that the conclusion of the conditional  statement “If 3n + 2 is odd, then n is odd” is false; namely, assume that n is even. Then, by the deﬁnition of an even integer, n = 2k for some integer k. Substituting 2k for n, we ﬁnd that 3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1). This tells us that 3n + 2 is even (because it is a multiple of 2), and therefore not odd. This is the negation of the premise of the theorem. Because the negation of the conclusion of the conditional statement implies that the hypothesis is false, the original conditional statement is true. Our proof by contraposition succeeded; we have proved the theorem “If 3n + 2 is odd, then n is odd.”
